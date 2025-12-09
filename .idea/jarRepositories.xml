@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="ossrh-snapshots" />
+      <option name="name" value="ossrh-snapshots" />
+      <option name="url" value="https://oss.sonatype.org/content/repositories/snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="epaa-maven-lib" />
+      <option name="name" value="epaa-maven-lib" />
+      <option name="url" value="https://maven.repo-ci.sfera.inno.local/repository/epaa-maven-lib" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="tsaj-maven-pub" />
+      <option name="name" value="tsaj-maven-pub" />
+      <option name="url" value="https://maven.repo-ci.sfera.inno.local/repository/tsaj-maven-pub" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="epaa-maven-snapshot" />
+      <option name="name" value="epaa-maven-snapshot" />
+      <option name="url" value="https://maven.repo-ci.sfera.inno.local/repository/epaa-maven-snapshot" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ossrh-releases" />
+      <option name="name" value="ossrh-releases" />
+      <option name="url" value="https://oss.sonatype.org/content/repositories/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="https://maven.repo-ci.sfera.inno.local/repository/epaa-maven-proxy-group" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="org-kohsuke" />
+      <option name="name" value="org-kohsuke" />
+      <option name="url" value="https://mvnrepository.com/artifact/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="epaa-maven-proxy-group" />
+      <option name="name" value="epaa-maven-proxy-group" />
+      <option name="url" value="https://maven.repo-ci.sfera.inno.local/repository/epaa-maven-proxy-group" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="epaa-maven" />
+      <option name="name" value="epaa-maven" />
+      <option name="url" value="https://maven.repo-ci.sfera.inno.local/repository/epaa-maven" />
+    </remote-repository>
+  </component>
+</project>
