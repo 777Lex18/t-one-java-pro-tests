@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="t-ono-java-pro-tests" />
         <module name="t-ono-java-pro-sream" />
+        <module name="t-one-java-pro-thread-pull" />
       </profile>
     </annotationProcessing>
   </component>
