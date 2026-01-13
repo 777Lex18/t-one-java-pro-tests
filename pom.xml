@@ -14,6 +14,7 @@
         <module>t-ono-java-pro-tests</module>
         <module>t-ono-java-pro-sream</module>
         <module>t-one-java-pro-thread-pull</module>
+        <module>t-one-java-pro-database-spring</module>
     </modules>
 
     <properties>
