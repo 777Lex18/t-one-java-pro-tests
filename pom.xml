@@ -15,6 +15,7 @@
         <module>t-ono-java-pro-sream</module>
         <module>t-one-java-pro-thread-pull</module>
         <module>t-one-java-pro-database-spring</module>
+        <module>t-one-java-pro-spring-jpa</module>
     </modules>
 
     <properties>
