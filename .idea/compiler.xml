@@ -7,9 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="t-ono-java-pro-tests" />
-        <module name="t-ono-java-pro-sream" />
+        <module name="t-one-java-pro-database-spring" />
+        <module name="t-one-java-pro-spring-jpa" />
         <module name="t-one-java-pro-thread-pull" />
+        <module name="t-ono-java-pro-sream" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="t-one-java-pro-database-spring" options="" />
+    </option>
   </component>
 </project>
