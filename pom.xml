@@ -16,6 +16,7 @@
         <module>t-one-java-pro-thread-pull</module>
         <module>t-one-java-pro-database-spring</module>
         <module>t-one-java-pro-spring-jpa</module>
+        <module>t-one-java-pro-payment-core</module>
     </modules>
 
     <properties>

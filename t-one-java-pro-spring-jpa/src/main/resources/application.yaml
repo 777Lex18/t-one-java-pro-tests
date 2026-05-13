@@ -1,4 +1,11 @@
+server:
+  port: 8081
 spring:
+  jackson:
+    serialization:
+      fail-on-self-references: true
+    mapper:
+      accept-case-insensitive-properties: true
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres

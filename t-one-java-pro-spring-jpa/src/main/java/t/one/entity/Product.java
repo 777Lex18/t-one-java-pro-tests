@@ -1,5 +1,6 @@
 package t.one.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import t.one.entity.producttype.ProductType;
 
@@ -24,20 +25,21 @@ public class Product {
     @Column(name = "product_type", nullable = false)
     private ProductType productType;
 
-    @Column(name = "user_id", nullable = false, insertable = false, updatable = false)
-    private Long userId;
+//    @Column(name = "user_id", nullable = false, insertable = false, updatable = false)
+//    private Long userId;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", nullable = false)
+    @JsonBackReference
     private User user;
 
     public Product() {}
 
-    public Product(String accountNumber, BigDecimal balance, ProductType productType, Long userId) {
+    public Product(String accountNumber, BigDecimal balance, ProductType productType, User user) {
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.productType = productType;
-        this.userId = userId;
+        this.user = user;
     }
 
     public Long getId() { return id; }
@@ -51,9 +53,6 @@ public class Product {
 
     public ProductType getProductType() { return productType; }
     public void setProductType(ProductType productType) { this.productType = productType; }
-
-    public Long getUserId() { return userId; }
-    public void setUserId(Long userId) { this.userId = userId; }
 
     public User getUser() { return user; }
     public void setUser(User user) { this.user = user; }
@@ -72,6 +71,6 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{id=" + id + ", accountNumber='" + accountNumber + "', balance=" + balance + ", productType=" + productType + ", userId=" + userId + "}";
+        return "Product{id=" + id + ", accountNumber='" + accountNumber + "', balance=" + balance + ", productType=" + productType + "," + "}";
     }
 }
