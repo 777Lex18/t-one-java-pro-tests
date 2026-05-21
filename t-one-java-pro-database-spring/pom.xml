@@ -74,7 +74,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.3.0</version>
                 <configuration>
-                    <mainClass>t.one.Main</mainClass>
+                    <mainClass>t.one.LimitsApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
